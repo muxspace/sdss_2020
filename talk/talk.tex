@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usetheme{metropolis}
+\usepackage{amssymb}
 \usepackage{appendixnumberbeamer}
 \usepackage{tabu}
 \usepackage{listings}
@@ -66,10 +67,9 @@
 \section{Why Reproducible Science}
 
 \begin{frame}{What is truth?}
-Is hydroxychloroquine effective in combating COVID-19?
+Does hydroxychloroquine increase mortality rate of COVID-19?
 
 \includegraphics[width=6cm]{images/hydroxychloroquine}
-
 
 \end{frame}
 
@@ -77,15 +77,18 @@ Is hydroxychloroquine effective in combating COVID-19?
 \begin{frame}{Which is correct?}
 \begin{columns}
 \begin{column}{.5\textwidth}
-\includegraphics[width=\linewidth]{images/yes}
+22 May (Lancet, NEJM):
 
-USA, India, Indonesia, Brazil 
+\includegraphics[trim=0 7mm 0 9mm,clip, width=\linewidth]{images/yes}
+
+(\href{https://www.theguardian.com/world/2020/jun/03/covid-19-surgisphere-who-world-health-organization-hydroxychloroquine}{Source})
 \end{column}
 
 \begin{column}{.5\textwidth}
-\includegraphics[width=\linewidth]{images/no}
+2-3 June (\href{https://www.thelancet.com/journals/lanpub/article/PIIS0140-6736(20)31290-3/fulltext}{Lancet}, \href{https://www.nejm.org/doi/full/10.1056/NEJMe2020822?query=featured\%E2\%80\%94coronavirus}{NEJM}):
+\includegraphics[width=\linewidth]{images/actually}
 
-WHO, Nature, Lancet
+(\href{https://www.theguardian.com/world/2020/jun/03/how-were-medical-journals-and-who-caught-out-over-hydroxychloroquine}{Source})
 \end{column}
 \end{columns}
 
@@ -724,7 +727,7 @@ Focus on repeatability:
 \begin{frame}{Thank You}
 Questions: \href{mailto:rowe@zatonovo.com}{rowe@zatonovo.com}
 
-Twitch: @cartesianfaith <- experiment for live data science/coding help\\
+Twitch: @cartesianfaith $\leftarrow$ experiment for live data science/coding help\\
 Twitter: @cartesianfaith\\
 Personal website: https://cartesianfaith.com
 
