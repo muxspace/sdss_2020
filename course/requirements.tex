@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+
+\title{Requirements for SDSS 2020 Short Course SC3}
+\date{\today} 
+\author{Brian Lee Yung Rowe} 
+%\institute{Founder \& CEO, Pez.AI\\ CEO, FundKo} 
+
+
+\begin{document} 
+\maketitle 
+
+\section{Environment}
+This short course requires Docker for building images and running containers.
+\href{https://www.docker.com/products/docker-desktop}{Docker} is available on Linux, Mac OS, and Windows.
+For Windows, I suggest using \href{https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2}{Docker for WSL}
+(disclaimer: I haven't done this myself).
+
+Most of the automation occurs via bash and Linux utilities. 
+The instructor's \href{https://github.com/zatonovo/crant}{crant package} 
+contains numerous bash scripts that work on Linux and (usually) Mac OS.
+A bash environment is available by default on Linux and Mac OS.
+For Windows users, you will need to install 
+\href{https://docs.microsoft.com/en-us/windows/wsl/install-win10}{Windows Subsystem for Linux} 
+or use a virtual machine instance on a cloud computing provider.
+
+If you don't have access to bash, many of the concepts translate to 
+other scripting environments, although the tools will be different.
+
+\section{Skills}
+This course serves as a supplement to my forthcoming book, 
+\emph{Introduction to Reproducible Science in R}.
+The course thus assumes some familiarity with R.
+Users unfamiliar with R can reference \href{https://cran.r-project.org/doc/manuals/r-devel/R-intro.pdf}{this introduction}.
+Alternatively, you can peruse my \href{https://cartesianfaith.com/2012/02/12/r-for-quants-part-i-a/}{R for Quants crash course on my blog}.
+
+The course assumes some familiarity with bash.
+At a minimum, you should know how to get around the file system,
+execute commands, and use the pipe operator.
+A good overview of bash is TDLP's \href{https://www.tldp.org/LDP/Bash-Beginners-Guide/html/}{Bash Guide for Beginners}.
+More advanced users may find the \href{https://tldp.org/LDP/abs/html/}{Advanced Bash Scripting Guide} helpful.
+\end{document}

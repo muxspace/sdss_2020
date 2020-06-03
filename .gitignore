@@ -1,0 +1,10 @@
+.*.swp
+*.aux
+*.log
+*.nav
+*.snm
+*.toc
+*.vrb
+*.out
+*.pdf
+course/coffee_ignore
